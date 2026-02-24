@@ -24,6 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'obsta = pkg2.obstaculo:main'
         ],
     },
 )

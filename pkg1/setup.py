@@ -24,6 +24,7 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'ultra = pkg1.ultrasonido:main'
         ],
     },
 )
